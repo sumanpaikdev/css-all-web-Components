@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    padding: 10px 15px;
+    background-color: rgb(223, 247, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    box-shadow: 0px 0px 18px 0px rgba(0, 36, 62, 0.244);
+}
+
+.nav--logo img{
+    height: 50px;
+    border-radius: 50%;
+}
+
+.nav--items li {
+    list-style: none;
+    margin: 10px 10px;
+    padding: 10px 10px;
+}
+
+.nav--items li:hover {
+    background-color: rgba(18, 121, 150, 0.259);
+    border-radius: 4px;
+    color: white;
+}
+
+.nav--items a {
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(48, 48, 48);
+}
+
+.nav--items {
+    display: flex;
+
+}
+
+.projects--dropdown {
+    position: relative;
+}
+
+.dropdown {
+    z-index: 2;
+    width: 105px;
+    position: absolute;
+    top: 42px;
+    right: -27px;
+    display: none;
+    background-color: rgb(0, 111, 145);
+    border-radius: 4px;
+
+
+}
+
+.dropdown li {
+    margin: 0;
+    text-align: center;
+}
+
+.dropdown li:hover {
+    background-color: rgb(0, 80, 111);
+    color: white;
+    transition: .3s ease;
+
+}
+
+.dropdown li a {
+    color: rgb(249, 243, 243);
+}
+
+.projects--dropdown:hover .dropdown {
+    display: block;
+}
+
+/* label and input responsive css style */
+input[type=checkbox] {
+    display: none;
+}
+
+.hamburger {
+    display: none;
+    user-select: none;
+    -webkit-user-select: none;   /* Safari 3.1+ */
+    -moz-user-select: none;   /* Firefox 2+ */
+    -ms-user-select: none;   /* IE 10+ */
+    font-size: 30px;
+    color: rgb(85, 83, 83);
+}
+
+
+
+
+@media (max-width: 775px) {
+    .nav--items {
+        display: none;
+        position: absolute;
+        top: 72px;
+        background-color: rgba(226, 237, 255, 0.862);
+        right: 0;
+        left: 0;
+        text-align: center;
+        
+    }
+    .nav--items li a{
+        color: rgb(65, 65, 65);
+    }
+    .projects--dropdown li a{
+        color: rgb(1, 1, 1);
+    }
+    
+    .nav--items li:hover {
+        transition: .2s ease;
+    }
+    .dropdown{
+        background-color: rgba(62, 70, 79, 0.929);
+    }
+    .dropdown li a{
+        color: white;
+    }
+    .hamburger{
+        display: block;
+
+    }
+    input[type=checkbox]:checked~ .nav--items{
+        display: block;
+    }
+    .dropdown {
+        left: 50%;
+        top: 30px;
+        transform: translateX(35%);
+
+    }
+}
+
+
+/* ************************************************************** */
