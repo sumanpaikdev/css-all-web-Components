@@ -1,0 +1,65 @@
+         Menus
+
+1. Collapsibles/Accordion
+2. Tabs
+3. Search Menu
+4. Side Navigation
+5. Slide Down a Bar on Scroll
+6. Hoverable Dropdown
+7. Clickable Dropdown
+8. Cascading Dropdown List
+9. Dropdown Sidebar/Topbar
+10. CSS Pagination
+
+          Images
+
+11. Slideshow / Carousel
+12. Slideshow Gallery
+13. Modal Images
+14. Image Grid
+15. Overlay Image
+16. Form on Image
+17. Shake an Image
+18. Portfolio Gallery with Filtering
+19. Add a Favicon in HTML
+
+         Buttons
+
+20. Read More Read Less Button
+21. Download Button
+22. Next and Previous Buttons
+23. Scroll Back To Top Button
+
+         Forms
+
+24. Login Form/Sign Up Form
+25. Checkout Form
+26. Contact Form
+27. Social Login Form
+28. Email Newsletter
+29. Copy Text to Clipboard
+30. Custom Checkbox
+31. Toggle Switch
+32. Toggle Password Visibility
+33. File Upload Button
+34. Filter Elements
+
+        More Items
+
+35. Range Sliders
+36. Tooltip Text
+37. Create a To Do List
+38. CSS Loader
+39. User Rating
+40. Fullscreen video
+41. Parallax Scrolling 
+42. Responsive Iframe
+43. Toggle Dark Mode
+44. Add Active Class to Current Element
+45. Download Link
+46. Custom Scrollbar
+47. Coming Soon Page
+48. Create a Draggable HTML Element
+49. Get Current URL With JavaScript
+50. Getcurrent Width Height        
+

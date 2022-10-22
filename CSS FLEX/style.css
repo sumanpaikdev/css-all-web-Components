@@ -1,3 +1,44 @@
-nav{
+.container{
     display: flex;
+    background-color: gray;
+    padding: 10px 0px ;
+    justify-content: center;
+}
+.home{
+    background-color: aquamarine;
+    font-size: 20px;
+    font-weight: bold;
+    /* width: 90px; */
+    text-align: center;
+    height: 30px;
+    /* flex-grow: 1; */
+    /* flex-shrink: 1; */
+    flex-basis: 200px;
+    /* margin-right: auto; */
+    flex: 1 1;
+    
+}
+.about{
+    background-color: rgb(255, 127, 127);
+    font-size: 20px;
+    font-weight: bold;
+    /* width: 90px; */
+    text-align: center;
+    height: 30px;
+    flex-basis: 200px;
+    flex: 1 1;
+
+
+}
+.contact{
+    background-color: aquamarine;
+    font-size: 20px;
+    font-weight: bold;
+    /* width: 90px; */
+    text-align: center;
+    height: 30px;
+    flex-basis: 200px;
+    /* margin-left: auto; */
+    flex: 1 1 ;
+
 }
