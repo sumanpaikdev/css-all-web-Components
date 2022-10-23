@@ -1,0 +1,27 @@
+.container{
+    background-color: lightcyan;
+    width: 450px;
+    height: 400px;
+    border: 2px solid gray;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto;
+}
+.btn{
+    width: 8rem;
+    height: 3.5rem;
+    border-radius: 5px;
+    background-color: rgb(0, 174, 255);
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    box-shadow: 0px 17px 10px -10px rgba(62, 92, 103, 0.827);
+    transition-duration: .2s;
+
+}
+.btn:hover{
+    box-shadow: 0px 37px 20px -20px rgb(72, 107, 114);
+    transform: translate(0px, -10px) scale(1);
+}

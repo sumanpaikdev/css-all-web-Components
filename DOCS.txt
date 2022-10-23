@@ -61,5 +61,5 @@
 47. Coming Soon Page
 48. Create a Draggable HTML Element
 49. Get Current URL With JavaScript
-50. Getcurrent Width Height        
+50. Getcurrent Width Height1        
 
