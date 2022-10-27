@@ -6,17 +6,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .container p{
-            color: red;
-            font-size: 3rem;
-            
-
+        .container {
+            margin: 2px solid gray;
+            width: 27rem;
+            height: 30rem;
+            background-color: black;
+            margin: 2rem auto;
+            overflow: auto;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
         }
+        img{
+            height: 20rem;
+            
+        }
+        .container--two{
+            width: 20rem;
+            height: 4rem;
+            border: 2px solid rgba(255, 255, 255, 0.371);
+            border-radius: 3rem;
+            position: fixed;
+            top: 4rem;
+            left: 6rem;
+            backdrop-filter: blur(10px);
+            background-color: rgba(45, 45, 45, 0.377);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        span{
+            font-family: cursive;
+            color: rgb(255, 255, 255);
+        }
+
     </style>
 </head>
 <body>
     <div class="container">
-        <p> &rarr; &larr; </p>
+        <img src="./android.png" alt="">
+        <img src="./android.png" alt="">
+        <img src="./android.png" alt="">
+        <img src="./android.png" alt="">
+        <!-- <p> &rarr; &larr; </p> -->
+        <div class="container--two">
+            <span>Back-Drop Filter</span>
+            
+        </div>
     </div>
 </body>
 </html>
