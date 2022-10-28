@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>Responsive Navbar</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <nav id="navbar">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">About Us</a>
+                <a href="#">Contact Us</a>
+            </nav>
+            <a href="#" class="hiddenEl" onclick="openNav()">&#9776;</a>
+        </div>
+        <div class="sidenav" id="mobileView">
+            <a href="javascript:void(0)" class="cross" onclick="closeNav()">&times; </a>
+            <a href="#" class="a--size">Home</a>
+            <a href="#" class="a--size">About</a>
+            <a href="#" class="a--size">Services</a>
+            <a href="#" class="a--size">About Us</a>
+            <a href="#" class="a--size">Contact Us</a>
+        </div>
+        
+        <script src="./index.js"></script>
+    </body>
+</html>
