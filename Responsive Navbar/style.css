@@ -88,7 +88,7 @@ nav>a:hover {
     font-size: 4rem;
 }
 
-@media only screen and (max-width:700px){
+@media only screen and (max-width:390px){
     .hiddenEl{
         display: block;
     }

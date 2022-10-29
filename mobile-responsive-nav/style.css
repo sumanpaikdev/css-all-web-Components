@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+.container{
+    background-color: black;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 12px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar > a{
+    color: rgb(229, 229, 229);
+    text-decoration: none;
+    margin-left: 12px;
+    margin-right: 12px;
+    font-size: 18px;
+}
+.navbar > a:hover{
+    color: red;
+}
+.open--bar{
+    color: white;
+    margin-right: 20px;
+    font-size: 24px;
+    /* display: none; */
+
+
+}
+.open--bar:hover{
+    color: rgb(255, 0, 0);
+}
+.sidenav{
+    background-color: rgb(190, 190, 190);
+    height: 100%;
+    width: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+    transition: .5s;
+    position: fixed;
+    
+}
+.sidenav > a{
+    text-decoration: none;
+    color: black;
+    margin: 20px 6px;
+
+}
+.items{
+    font-size: 30px;
+    overflow-x: hidden;
+    width: 300px;
+    text-align: center;
+
+}
+.items:hover{
+    color: rgb(77, 98, 255);
+}
+.close--bar{
+    position: absolute;
+    top: 3px;
+    right: 20px;
+    font-size: 45px;
+}
+@media only screen and (max-width: 600px) {
+    .open--bar{
+        display: block;
+
+    }
+    .navbar{
+        display: none;
+    }
+    
+}
