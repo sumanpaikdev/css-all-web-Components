@@ -1,0 +1,45 @@
+.container{
+    display: flex;
+    overflow: auto;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    padding: 45px;
+}
+.card{
+    width: 200px;
+    height: 150px;
+    /* border: 1px solid black; */
+    position: relative;
+    margin: 45px;
+    padding: 33px;
+}
+.upper-card{
+    background-color: skyblue;
+    width: 200px;
+    height: 150px;
+    position: absolute;
+    transition: .3s;
+
+}
+.lower-card{
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    height: 150px;
+    position: absolute;
+    transition: .3s;
+    box-shadow: 0px 9px 20px 9px 33px 3px rgba(0, 0, 0, 0.522);
+    box-shadow: 0 20px 50px rgba(0,0,0,0.8);
+
+}
+.card:hover .upper-card{
+    transform: translate(0px, -70px);
+}
+.card:hover .lower-card{
+    transform: translate(0px , 70px);
+}
+.one{
+    background-color: orange;
+}
+.two{
+    background-color: lightgreen;
+}

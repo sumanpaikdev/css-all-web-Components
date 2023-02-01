@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>button animation</title>
+
+        <style>
+            .container{
+                width: 400px;
+                height: 400px;
+                margin: 40px auto;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .btn{
+                width: 180px;
+                padding: 16px;
+                background-color: blueviolet;
+                color: white;
+                font-family: sans-serif;
+                font-weight: bold;
+                border: none;
+                outline: none;
+                border-radius: 6px;
+                font-size: 16px;
+                box-shadow: 0px 17px 10px -10px gray;
+                transition: .2s;
+            }
+            .btn:hover{
+                box-shadow: 0px 37px 20px -20px gray;
+                transform: translate(0px, -10px) scale(1.1);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <button class="btn">
+                Button
+            </button>
+        </div>
+    </body>
+</html>
